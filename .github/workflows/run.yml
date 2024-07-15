@@ -30,4 +30,4 @@ jobs:
       
       - name: default count
         if: github.event_name != 'workflow_dispatch'
-        run: script/count balter-test-org
+        run: script/count tffi
